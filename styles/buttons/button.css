@@ -1,0 +1,64 @@
+@import url('../global.css');
+@import url('../variables.css');
+
+.primary-btn {
+    font-family: var(--font-secondary);
+    text-transform: uppercase;
+    font-size: var(--font-size-xs);
+    padding: 16px 24px;
+    background-color: var(--color-black);
+    color: var(--color-neutral-light);
+}
+.primary-btn:hover {
+    background-color: var(--color-neutral-dark);
+}
+
+.secondary-btn {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-md);
+    padding: 8px 24px;
+    background-color: var(--color-neutral-light);
+    color: var(--color-neutral-dark);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.secondary-btn:hover {
+    background-color: var(--color-neutral-lightest);
+}
+
+.ghost-btn {
+    font-weight: 500;
+    font-family: var(--font-primary);
+    background-color: transparent;
+    font-size: var(--font-size-sm);
+    padding: 8px 24px;
+    color: var(--color-black);
+    display: flex;
+    text-align: start;
+    gap: 8px;
+    text-transform: capitalize;
+}
+
+.active {
+    font-weight: 500;
+    font-family: var(--font-primary);
+    font-size: var(--font-size-sm);
+    padding: 8px 24px;
+    color: var(--color-black);
+    display: flex;
+    text-align: start;
+    gap: 8px;
+    text-transform: capitalize;
+    background-color: var(--color-neutral-light);
+}
+
+.ghost-btn span:first-child {
+    font-size: var(--font-size-md);
+    font-weight: 600;
+    color: #aaa;
+}
+
+.ghost-btn:hover {
+    background-color: var(--color-neutral-light);
+}

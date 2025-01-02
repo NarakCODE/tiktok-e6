@@ -1,0 +1,53 @@
+@import url('../global.css');
+@import url('../variables.css');
+
+/* Typography */
+.heading-1 {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-2xl);
+    color: var(--color-heading);
+    line-height: var(--line-height-sm);
+}
+
+.heading-2 {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-xl);
+    color: var(--color-heading);
+    line-height: var(--line-height-sm);
+}
+
+.heading-3 {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-lg);
+    color: var(--color-heading);
+    line-height: var(--line-height-sm);
+}
+
+.heading-4 {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-md);
+    color: var(--color-heading);
+    line-height: 1.8;
+    font-weight: 500;
+}
+
+.heading-5 {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-sm);
+    color: var(--color-heading);
+    line-height: var(--line-height-md);
+}
+
+.paragraph {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-sm);
+    color: var(--color-neutral-dark);
+    line-height: var(--line-height-sm);
+}
+
+.info {
+    font-family: var(--font-secondary);
+    font-size: var(--font-size-xs);
+    color: var(--color-neutral-dark);
+    line-height: var(--line-height-sm);
+}
