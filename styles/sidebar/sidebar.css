@@ -3,9 +3,9 @@
 
 .sidebar-container {
     position: sticky;
-    left: 0px;
-    top: 0px;
-    width: 280px;
+    left: 0%;
+    top: 0%;
+    max-width: 280px;
     min-height: 100vh;
     overflow-y: scroll;
     display: flex;
@@ -44,6 +44,10 @@
     border-bottom: 1px solid var(--color-neutral-lightest);
     width: 100%;
     padding: 16px 16px;
+}
+
+.sidebar-list li a {
+    text-decoration: none;
 }
 
 .sidebar-footer {
