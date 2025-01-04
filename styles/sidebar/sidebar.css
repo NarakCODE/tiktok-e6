@@ -2,15 +2,26 @@
 @import url('../variables.css');
 
 .sidebar-container {
-    position: sticky;
+    position: relative;
     left: 0%;
     top: 0%;
     max-width: 280px;
     min-height: 100vh;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
+    border-right: 1px solid var(--color-neutral-lightest);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: transform 0.3s ease-in-out;
+}
+
+.sidebar-container.active {
+    /* Show the sidebar */
+    transform: translateX(0);
+}
+.hamburger-menu {
+    /* Hide button on desktop */
+    display: none;
 }
 
 .sidebar-header {
@@ -56,4 +67,19 @@
     align-items: center;
     justify-content: center;
     border-top: 1px solid var(--color-neutral-lightest);
+}
+
+@media (max-width: 768px) {
+    .sidebar-container {
+        position: fixed;
+        width: 100%;
+        max-width: 400px;
+        /* Hide sidebar by default on mobile */
+        transform: translateX(-100%);
+    }
+
+    .hamburger-menu {
+        /* Show button on mobile */
+        display: block;
+    }
 }

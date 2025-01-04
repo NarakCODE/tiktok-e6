@@ -12,16 +12,21 @@
         <link rel="stylesheet" href="./styles/sidebar/sidebar.css" />
     </head>
     <body>
+        <button class="hamburger-menu" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="sidebar-overlay"></div>
         <div class="container">
             <!-- Sidebar -->
             <aside class="sidebar-container">
                 <!-- Sidebar header -->
                 <div class="sidebar-header">
                     <!-- Logo -->
-                    <div class="logo">
-                        <!-- <img src="./assets/logo.png" alt="Logo" /> -->
-                        <h1>Logo</h1>
-                    </div>
+                    <a href="/" class="logo">
+                        <img src="../assets/TikTok_logo.svg.png" alt="Logo" />
+                    </a>
 
                     <!-- Description -->
                     <div class="sidebar-description">
@@ -98,11 +103,9 @@
 
                 <!-- Sidebar footer -->
                 <div class="sidebar-footer">
-                    <button class="ghost-btn">Go to website</button>
+                    <button class="ghost-btn">Khmer</button>
                 </div>
-            </aside>
-
-            <!-- Main container -->
+            </aside>      <!-- Main container -->
             <main class="main-container">
                 <header class="header-container">
                     <img src="./assets/What-is-TikTok.jpg" alt="" />
@@ -112,6 +115,7 @@
                     </div>
                 </header>
                 <div class="inner-container">
+                    <img src="./assets/What-is-TikTok.jpg" alt="" />
                     <h3 class="heading-3">What is TikTok? A brief history</h3>
                     <h3 class="heading-4">
                         TikTok is a social media platform that allows users to
@@ -139,5 +143,8 @@
                 </div>
             </main>
         </div>
+
+        <script src="./components/logo.js"></script>
+        <script src="./script.js"></script>
     </body>
 </html>
