@@ -143,7 +143,7 @@ img {
 
     /* Sidebar adjustments */
     .sidebar-container {
-        position: fixed;
+        position: sticky;
         display: none;
         top: 0;
         left: -100%;
@@ -153,6 +153,7 @@ img {
         z-index: 1000;
         transition: left 0.3s ease-in-out;
         overflow-y: none;
+        padding-bottom: 140px;
     }
 
     .sidebar-container.active {
