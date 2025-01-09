@@ -1,6 +1,7 @@
 export const data = [
   {
     en: {
+      number1: "01",
       introduction_1: "Introduction",
       heading_1: "What is TikTok? A brief history",
       paragraph_11:
@@ -11,8 +12,9 @@ export const data = [
         "So why is it so popular? There are two sides to TikTok, and it’s equally brilliant at both. Making content is incredibly easy, which means anyone can pick it up and create great videos. At the same time, TikTok’s algorithm has mastered the art of serving you videos you want to watch. It’s a potent combination that’s key to the app’s success.",
     },
     km: {
+      number1: "០១",
       introduction_1: "ផ្តើម",
-      heading_1: "TikTok គឺជាអ្វី? ប្រវត្តិដ៏សង្ខេប",
+      heading_1: "TikTok គឺជាអ្វី? ប្រវត្តិសង្ខេប",
       paragraph_11:
         "TikTok គឺជាវេទិកាសង្គមមួយដែលអាចឱ្យអ្នកប្រើបង្កើតនិងចែករំលែកវីដេអូខ្លីៗទៅកាន់ទស្សនិកជនសកល។ ចាប់តាំងពីការដាក់ឱ្យដំណើរការនៅឆ្នាំ ២០១៦ នៅប្រទេសចិនក្រោមឈ្មោះ Douyin វេទិកានេះបានក្លាយជាភ្លាមៗនូវកម្មវិធីដ៏ធំមួយនៅលើពិភពលោក។",
       paragraph_12:
@@ -32,7 +34,7 @@ export const data = [
       paragraph_23:
         "What’s more, TikTok has made collaborating with other TikTokers possible in just a couple of taps. Its Duet and Stitch features are simple to use - we'll show you how further below - and mean you can have The Rock or Gordon Ramsay starring in your videos.",
       heading_3_1: "How long are TikTok videos?",
-      paragraph_31:
+      paragraph_24:
         "TikTok videos can be as short as a second or go all the way up to 10 minutes. How long you want to make your videos depends on the content itself. A quick kitchen hack might only need a few seconds to explain, whereas a full recipe could take a few minutes. What’s more important than aiming for a particular length is making sure your video hooks people all the way through.",
     },
     km: {
@@ -45,7 +47,7 @@ export const data = [
       paragraph_23:
         "ច្រើនជាងនេះ, TikTok បានធ្វើឱ្យការរួមសហការជាមួយ TikTokers ផ្សេងទៀតអាចធ្វើបានក្នុងតែប៉ុន្មានការចុច។ លក្ខណៈពិសេស Duet និង Stitch របស់វាងាយស្រួលប្រើ - យើងនឹងបង្ហាញអ្នកពីរបៀបបន្ថែមនៅខាងក្រោម - ហើយមានន័យថាអ្នកអាចមាន The Rock ឬ Gordon Ramsay ដើរតួនៅក្នុងវីដេអូរបស់អ្នក។",
       heading_3_1: "វីដេអូ TikTok វែងប៉ុន្មាន?",
-      paragraph_31:
+      paragraph_24:
         "វីដេអូ TikTok អាចខ្លីដូចមួយវិនាទីឬដល់ទៅ ១០ នាទី។ វាយាងវែងប៉ុន្មានដែលអ្នកចង់បង្កើតអាស្រ័យទៅលើមាតិកាផ្ទាល់។ ការបង្ហាញចំនេញលឿនក្នុងផ្ទះបាយអាចត្រឹមតែត្រូវការវិនាទីប៉ុន្មាន ដោយបើសិនជាបង្ហាញវីដេអូពេញលឿនត្រូវការតិចតួចនាទី។",
     },
   },
@@ -87,43 +89,44 @@ export const data = [
     },
     km: {
       introduction_3: "០៣",
-      heading_3: "កំណត់រចនាសម្ព័ន្ធប្រវត្តិ TikTok របស់អ្នក",
+      heading_3: "ដំឡើងទម្រង់ TikTok របស់អ្នក។",
       paragraph_31: "របៀបបង្កើតគណនី TikTok",
       paragraph_32:
-        "ប្រសិនបើអ្នកបានរៀបចំចូលទៅក្នុងពិភពលោកនៃ TikTok ការកំណត់គណនីរបស់អ្នកគឺស្រួលណាស់។ គ្រាន់តែចូលទៅកាន់ Google Play ឬ App Store ហើយទាញយកកម្មវិធី TikTok ទៅឧបករណ៍ចល័តរបស់អ្នក។ ពីទីនោះ សូមចុចលើជម្រើស Profile ហើយជ្រើសរើសវិធីចុះឈ្មោះដែលអ្នកចូលចិត្ត។ អ្នកអាចបង្កើតប្រវត្តិដោយប្រើលេខទូរស័ព្ទ អាសយដ្ឋានអ៊ីមែល ឬដោយភ្ជាប់គណនី Facebook Twitter ឬ Google របស់អ្នក។ បន្ទាប់ពីអ្នកបានកំណត់គណនី TikTok របស់អ្នកហើយ វាពេលវេលាដើម្បីចាប់ផ្តើមកំណត់រចនាសម្ព័ន្ធប្រវត្តិរបស់អ្នកដើម្បីធ្វើឱ្យវាជារបស់អ្នក។",
-      paragraph_33: "របៀបប្ដូរឈ្មោះអ្នកប្រើប្រាស់ TikTok របស់អ្នក",
+        "ប្រសិនបើអ្នកត្រៀមខ្លួនរួចជាស្រេចដើម្បីចូលទៅក្នុងពិភពនៃ TikTok នោះ ការបង្កើតគណនីរបស់អ្នកគឺជាការងាយស្រួលមួយ។ គ្រាន់តែចូលទៅកាន់ Google Play ឬ App Store ហើយទាញយកកម្មវិធី TikTok ទៅកាន់ឧបករណ៍ចល័តរបស់អ្នក។ ពីទីនោះចុចលើជម្រើស Profile ហើយជ្រើសរើសវិធីសាស្ត្រចុះឈ្មោះដែលអ្នកពេញចិត្ត។ អ្នកអាចបង្កើតទម្រង់ដោយប្រើលេខទូរស័ព្ទ អាសយដ្ឋានអ៊ីមែលរបស់អ្នក ឬដោយការភ្ជាប់គណនី Facebook Twitter ឬ Google របស់អ្នក។ នៅពេលដែលអ្នកបានដំឡើងគណនី TikTok របស់អ្នកហើយ វាជាពេលវេលាដើម្បីចាប់ផ្តើមកំណត់ទម្រង់ផ្ទាល់ខ្លួនរបស់អ្នកដើម្បីធ្វើវាជារបស់អ្នកផ្ទាល់។",
+      paragraph_33: "របៀបប្តូរឈ្មោះអ្នកប្រើប្រាស់ TikTok របស់អ្នក។",
       paragraph_34:
-        "ឈ្មោះគឺសំខាន់ មែនទេ? នៅពេលដែលអ្នកចុះឈ្មោះ TikTok នឹងផ្តល់ឈ្មោះមួយដូចជា User24041988 ដែលមិនមានការបញ្ចេញអារម្មណ៍។ ប៉ុន្តែការប្ដូរឈ្មោះនេះទៅឈ្មោះដែលមានភាពអស្ចារ្យ និងមានអត្តសញ្ញាណគឺស្រួល។",
+        "ឈ្មោះគឺសំខាន់មែនទេ? នៅពេលអ្នកចុះឈ្មោះ TikTok នឹងផ្តល់ឱ្យអ្នកនូវឈ្មោះអ្នកប្រើប្រាស់ដែលមិនគួរឱ្យចាប់អារម្មណ៍ដូចជា User24041988 ដោយស្វ័យប្រវត្តិ។ ប៉ុន្តែការផ្លាស់ប្តូរវាទៅជាអ្វីដែលប្លែក និងអាចបំភ្លេចបានគឺងាយស្រួល។",
       paragraph_35:
-        "'គ្រាន់តែទៅកាន់ប្រវត្តិរបស់អ្នក ហើយចុចលើ កែប្រែប្រវត្តិ ដើម្បីធ្វើការកែប្រែឈ្មោះអ្នកប្រើប្រាស់។ សូមចាំថាអ្នកអាចប្ដូរឈ្មោះបានតែម្តងក្នុងមួយខែ ៣០ ថ្ងៃ ដូច្នេះសូមប្រាកដថាអ្នកបានជ្រើសរើសឈ្មោះដែលអ្នកពេញចិត្ត។'",
+        "គ្រាន់តែចូលទៅកាន់ Profile របស់អ្នក ហើយចុចលើ Edit Profile ដើម្បីធ្វើបច្ចុប្បន្នភាពឈ្មោះអ្នកប្រើប្រាស់របស់អ្នក។ សូមចងចាំថាអ្នកអាចផ្លាស់ប្តូរវាបានតែរៀងរាល់ 30 ថ្ងៃម្តង ដូច្នេះត្រូវប្រាកដថាជ្រើសរើសឈ្មោះអ្នកប្រើប្រាស់ដែលអ្នកពេញចិត្ត។",
       paragraph_36:
-        "'ការប្ដូរឈ្មោះអ្នកប្រើប្រាស់នឹងបាត់បង់សញ្ញាបញ្ជាក់ ប្រសិនបើអ្នកមាន។ ប្រសិនបើអ្នកបានកំណត់ការតាំងចិត្តថានឹងក្លាយជាអ្នកមានភាពជោគជ័យ ដូច្នេះ TikTok អាចផ្តល់ស្ថានភាពដែលបានបញ្ជាក់ អ្នកត្រូវប្រាកដថាអ្នកមិនបានជ្រើសរើសអ្វីដែលអ្នកអាចសោកស្តាយ ឬចង់ប្ដូរ​នៅពេលក្រោយ!'",
-      paragraph_37: "របៀបបន្ថែមតំណភ្ជាប់ទៅក្នុងប្រវត្តិ TikTok របស់អ្នក",
+        "ការផ្លាស់ប្តូរឈ្មោះអ្នកប្រើប្រាស់របស់អ្នកនឹងបាត់បង់សញ្ញាធីកដែលបានផ្ទៀងផ្ទាត់របស់អ្នក ប្រសិនបើអ្នកមាន។ ប្រសិនបើអ្នកបានកំណត់គោលដៅរបស់អ្នកក្នុងការក្លាយជាកិច្ចព្រមព្រៀងដ៏ធំមួយដែល TikTok ផ្តល់ឱ្យអ្នកនូវស្ថានភាពដែលបានផ្ទៀងផ្ទាត់ សូមប្រាកដថាអ្នកមិនជ្រើសរើសអ្វីដែលអ្នកអាចនឹងសោកស្តាយ ឬចង់ផ្លាស់ប្តូរនៅពេលក្រោយ!",
+      paragraph_37: "របៀបបន្ថែមតំណទៅជីវ TikTok របស់អ្នក។",
       paragraph_38:
-        "'ប្រសិនបើអ្នកចង់ធ្វើឱ្យធំនៅលើ TikTok អ្នកត្រូវគិតអំពីការកសាងម៉ាកផ្ទាល់ខ្លួន របស់អ្នក។ ផ្នែកធំមួយនៃនេះគឺជាការជួយឱ្យមនុស្សដឹងពីអ្នក។ ប្រើប្រវត្តិ TikTok របស់អ្នក ដើម្បីផ្តល់ឱ្យទស្សនិកជនរបស់អ្នកមើលឃើញពីអ្នក និងមាតិកាដែលអ្នកបង្កើត.'",
+        "ប្រសិនបើអ្នកចង់ធ្វើឱ្យវាធំនៅលើ TikTok អ្នកនឹងចង់គិតអំពីការបង្កើតយីហោផ្ទាល់ខ្លួនរបស់អ្នក។ ផ្នែក​ដ៏​ធំ​នៃ​ការ​នេះ​គឺ​ជួយ​មនុស្ស​ឱ្យ​ស្គាល់​អ្នក។ ប្រើជីវ TikTok របស់អ្នកដើម្បីផ្តល់ឱ្យទស្សនិកជនរបស់អ្នកនូវទិដ្ឋភាពដែលអ្នកជានរណា និងខ្លឹមសារដែលអ្នកបង្កើត។",
       paragraph_39:
-        "'ការព្រមាន គ្រាន់តែប្រាកដថា ប្រសិនបើអ្នកចង់បន្ថែមតំណភ្ជាប់ដែលអាចចុចបានទៅក្នុងប្រវត្តិរបស់អ្នក អ្នកត្រូវការគណនីអាជីវកម្ម និងមានអ្នកติดตาม ១,០០០ នាក់ ឬអាជីវកម្មដែលបានចុះทะเบียน។ ប្រសិនបើអ្នកមិនមានទេ អ្នកអាចគ្រាន់តែបន្ថែមតំណភ្ជាប់នៅក្នុងប្រវត្តិរបស់អ្នក ប៉ុន្តែវានឹងមិនបង្ហាញថាជាតំណភ្ជាប់ដែលអាចចុចបានសម្រាប់អ្នកប្រើប្រាស់ទេ.'",
+        "ការព្រមានដោយយុត្តិធម៌ ប្រសិនបើអ្នកចង់បន្ថែមតំណដែលអាចចុចបានទៅកាន់ជីវរបស់អ្នក អ្នកនឹងត្រូវការគណនីអាជីវកម្ម និងអ្នកតាមដាន 1,000 នាក់ ឬអាជីវកម្មដែលបានចុះឈ្មោះ។ ប្រសិនបើអ្នកមិនមានទេ អ្នកអាចបន្ថែមតំណនៅក្នុងជីវរបស់អ្នក ប៉ុន្តែវានឹងមិនបង្ហាញជាតំណដែលអាចចុចបានសម្រាប់អ្នកប្រើប្រាស់នោះទេ។",
       paragraph_330:
-        "'ការបន្ថែមតំណភ្ជាប់ទៅក្នុងប្រវត្តិ TikTok របស់អ្នក ជាមួយ ១,០០០ នាក់:'",
-      step_1: "'ប្រាកដថាអ្នកមានគណនីអាជីវកម្ម.'",
-      step_2: "'ទៅកាន់ កែប្រែប្រវត្តិ នៅលើគណនីTikTok របស់អ្នក.'",
-      step_3: "'រកមើលជម្រើសដើម្បីបន្ថែមគេហទំព័រ ទៅក្នុងប្រវត្តិរបស់អ្នក.'",
-      step_4: "'បញ្ចូល URL ហើយរក្សាទុកការកែប្រែរបស់លោក.'",
+        "ការបន្ថែមតំណទៅកាន់ជីវ TikTok របស់អ្នកជាមួយនឹងអ្នកតាមដាន 1,000៖",
+      step_1: "ត្រូវប្រាកដថាអ្នកមានគណនីអាជីវកម្ម។",
+      step_2: "ចូលទៅកាន់ Edit Profile នៅលើគណនី TikTok របស់អ្នក។",
+      step_3: "រកមើលជម្រើសដើម្បីបន្ថែមគេហទំព័រទៅជីវរបស់អ្នក។",
+      step_4: "បញ្ចូល URL ហើយរក្សាទុកការផ្លាស់ប្តូររបស់អ្នក។",
       paragraph_331:
-        "'ការបន្ថែមតំណភ្ជាប់ទៅក្នុងប្រវត្តិTikTok របស់លោក ជាមួយអាជីវកម្មដែលបានចុះทะเบียน:'",
-      step_5: "'ប្រាកដថាអ្នកមានគណនីអាជីវកម្ម.'",
-      step_6: "'ចុចលើរោម ៣-ខ្សែ ហើយ ចុចលើ Business suite'",
-      step_7: "'ដាក់ពាក្យ ឯកសារដែលទាមទារ តាមរយៈ ការចុះทะเบียนអាជីវកម្ម.'",
+        "ការបន្ថែមតំណទៅកាន់ជីវ TikTok របស់អ្នកជាមួយនឹងអាជីវកម្មដែលបានចុះឈ្មោះ៖",
+      step_5: "ត្រូវប្រាកដថាអ្នកមានគណនីអាជីវកម្ម។",
+      step_6: "ចុចរូបតំណាង 3 បន្ទាត់ ហើយចុចលើឈុតអាជីវកម្ម។",
+      step_7: "បញ្ជូនឯកសារចាំបាច់តាមរយៈការចុះឈ្មោះអាជីវកម្ម។",
       step_8:
-        "'នៅពេលដែលអាជីវកម្មរបស់លោកបានផ្ទៀងផ្ទាត់ ទៅកាន់ កែប្រែប្រវត្តិ នៅលើគណនីTikTok របស់លោក.'",
-      step_9: "'រកមើលជម្រើសដើម្បីបន្ថែមគេហទំព័រ ទៅក្នុងប្រវត្តិរបស់លោក.'",
-      step_10: "'បញ្ចូល URL ហើយរក្សាទុកការកែប្រែរបស់លោក.'",
+        "នៅពេលដែលអាជីវកម្មរបស់អ្នកត្រូវបានផ្ទៀងផ្ទាត់ សូមចូលទៅកាន់ Edit Profile នៅលើគណនី TikTok របស់អ្នក។",
+      step_9: "រកមើលជម្រើសដើម្បីបន្ថែមគេហទំព័រទៅជីវរបស់អ្នក។",
+      step_10: "បញ្ចូល URL ហើយរក្សាទុកការផ្លាស់ប្តូររបស់អ្នក។",
       paragraph_332:
-        "'ដើម្បីផ្លាស់ទីទៅគណនីអាជីវកម្ម សូមទៅកាន់ប្រវត្តិរបស់លោក ហើយ ចុចលើ icon ៣-ខ្សែ នៅខាងលើខាង droit ។ ទៅកាន់ Settings និង privacy បន្ទាប់ពីនេះ ចុច Account ជ្រើស Switch ទៅ គណនីអាជីវកម្ម ហើយ តាមដានការបង្ហាញ.'",
+        "ដើម្បីប្តូរទៅគណនីអាជីវកម្ម សូមចូលទៅកាន់កម្រងព័ត៌មានរបស់អ្នក ហើយចុចលើរូបតំណាង 3 បន្ទាត់នៅជ្រុងខាងលើខាងស្តាំ។ ចូលទៅកាន់ការកំណត់ និងភាពឯកជន បន្ទាប់មកចុចលើគណនី។ ជ្រើសរើសប្តូរទៅគណនីអាជីវកម្ម ហើយធ្វើតាមការណែនាំ។",
     },
   },
   {
     en: {
+      number4: "04",
       introduction_4: "Find your niche on TikTok",
       heading_4: "Finding your TikTok niche",
       paragraph_41:
@@ -153,6 +156,7 @@ export const data = [
         "🤝 To stitch or duet another creator’s TikTok video, simply tap the Share icon on the right of the screen. You’ll get the option to select either Duet or Stitch. Then you can record your part and post a whole new video that features their content.",
     },
     km: {
+      number4: "០៤",
       introduction_4: "ស្វែងរកសេក្តីផ្តោតរបស់អ្នកលើ TikTok",
       heading_4: "ស្វែងរកសេក្តីផ្តោតរបស់អ្នកលើ TikTok",
       paragraph_41:
@@ -182,6 +186,7 @@ export const data = [
   },
   {
     en: {
+      number5: "05",
       introduction_5: "Create your own TikTok videos",
       heading_5: "How to make a TikTok",
       paragraph_51: `It’s time to unleash your creativity on TikTok! Creating TikTok videos is super simple, but there are things you’ll want to check off if you want them to get noticed. By following our step-by-step guide, you can give your content the best chance of reaching a wider audience and racking up more views.`,
@@ -226,6 +231,7 @@ export const data = [
         "Once you’ve posted a couple of videos, you can see exactly when your audience are on TikTok most often. Simply go to your profile, hit the 3-line icon, and head to Creator tools. Hit Analytics and select the Followers tab to see when you should post to reach your followers.",
     },
     km: {
+      number5: "០៥",
       introduction_5: "បង្កើតវីដេអូ TikTok ផ្ទាល់ខ្លួនរបស់អ្នក។",
       heading_5: "របៀបបង្កើត TikTok",
       paragraph_51: `ដល់ពេលបញ្ចេញគំនិតច្នៃប្រឌិតរបស់អ្នកនៅលើ TikTok! ការបង្កើតវីដេអូ TikTok គឺសាមញ្ញណាស់ ប៉ុន្តែមានអ្វីដែលអ្នកចង់ពិនិត្យ ប្រសិនបើអ្នកចង់ឱ្យពួកគេចាប់អារម្មណ៍។ ដោយធ្វើតាមការណែនាំជាជំហានៗរបស់យើង អ្នកអាចផ្តល់ឱ្យមាតិការបស់អ្នកនូវឱកាសដ៏ល្អបំផុតក្នុងការឈានដល់ទស្សនិកជនកាន់តែទូលំទូលាយ និងបង្កើនចំនួនមើលកាន់តែច្រើន។`,
@@ -271,6 +277,7 @@ export const data = [
   },
   {
     en: {
+      number6: "06",
       introduction_6: "Connect with your audience",
       heading_61: "Reach out to your audience through TikTok",
       paragraph_62: `TikTok is a worldwide community, which is a big part of why it’s so popular. Make use of TikTok's features to reply to comments, check out who your followers are, and connect with them through live streams. Interacting with your audience is not only fun, but it’s also an effective way to build an engaged fanbase.`,
@@ -296,6 +303,7 @@ export const data = [
         "To go live, tap the + icon at the bottom of the screen and swipe left to the LIVE tab. Enter a title for your live stream and tap Go Live to start broadcasting. Starting a live stream is perfect for popular formats like Q&A sessions, post-match huddles, or even topical roundtable discussions where you collaborate with other creators.",
     },
     km: {
+      number6: "០៦",
       introduction_6: "ភ្ជាប់ជាមួយទស្សនិកជនរបស់អ្នក។",
       heading_61: "ផ្សព្វផ្សាយទៅកាន់ទស្សនិកជនរបស់អ្នកតាមរយៈ TikTok",
       paragraph_62: `TikTok គឺជាសហគមន៍ទូទាំងពិភពលោក ដែលជាផ្នែកមួយដ៏ធំនៃមូលហេតុដែលវាមានប្រជាប្រិយភាពខ្លាំង។ ប្រើប្រាស់មុខងាររបស់ TikTok ដើម្បីឆ្លើយតបទៅនឹងមតិយោបល់ ពិនិត្យមើលថាតើនរណាជាអ្នកតាមដានរបស់អ្នក និងភ្ជាប់ទំនាក់ទំនងជាមួយពួកគេតាមរយៈការផ្សាយផ្ទាល់។ ការប្រាស្រ័យទាក់ទងជាមួយទស្សនិកជនរបស់អ្នកមិនត្រឹមតែមានភាពសប្បាយរីករាយប៉ុណ្ណោះទេ ប៉ុន្តែវាក៏ជាមធ្យោបាយដ៏មានប្រសិទ្ធភាពក្នុងការបង្កើតអ្នកគាំទ្រដែលចូលរួមផងដែរ។`,
@@ -323,6 +331,7 @@ export const data = [
   },
   {
     en: {
+      number7: "07",
       introduction_7: "Be creative and grow on TikTok",
       heading_71: " Be creative and watch your TikTok channel grow",
       paragraph_72: `With over a billion active TikTok users every single month, now’s the time to embrace the popular short-form video platform and get started on TikTok. With this guide you should now have all the tools to make a TikTok and flex your creative muscles with awesome bite-size content.`,
@@ -333,6 +342,7 @@ export const data = [
         "TikTok has made it easy to get creative with nothing more than your phone, so get started and see what you can come up with. Embrace your creativity, and let your unique style shine through your TikTok content.",
     },
     km: {
+      number7: "០៧",
       introduction_7: "មានភាពច្នៃប្រឌិត និងរីកចម្រើននៅលើ TikTok",
       heading_71: " មានភាពច្នៃប្រឌិត និងមើលប៉ុស្តិ៍ TikTok របស់អ្នករីកចម្រើន",
       paragraph_72: `ជាមួយនឹងអ្នកប្រើប្រាស់ TikTok សកម្មជាងមួយពាន់លាននាក់រៀងរាល់ខែ ឥឡូវនេះដល់ពេលដែលត្រូវទទួលយកវេទិកាវីដេអូខ្លីដ៏ពេញនិយម ហើយចាប់ផ្តើមនៅលើ TikTok ។ ជាមួយនឹងការណែនាំនេះ ឥឡូវនេះអ្នកគួរតែមានឧបករណ៍ទាំងអស់ដើម្បីបង្កើត TikTok និងធ្វើឱ្យសាច់ដុំច្នៃប្រឌិតរបស់អ្នកជាមួយនឹងមាតិកាខាំទំហំដ៏អស្ចារ្យ។`,

@@ -60,12 +60,11 @@ async function loadTranslations(language) {
     });
   });
 }
-// Example usage: Switch to Khmer
+
 document
   .querySelector("#translateKhmer")
   .addEventListener("click", () => loadTranslations("km"));
 
-// Example usage: Switch to English
 document
   .querySelector("#translateEnglish")
   .addEventListener("click", () => loadTranslations("en"));
