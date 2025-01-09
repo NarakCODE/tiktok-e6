@@ -1,163 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tiktok E6</title>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tiktok E6</title>
+        <!-- Global styles -->
+        <link rel="stylesheet" href="../styles/global.css" />
+        <link rel="stylesheet" href="../styles/buttons/button.css" />
+        <link rel="stylesheet" href="../styles/typography/typography.css" />
+        <link rel="stylesheet" href="../styles/sidebar/sidebar.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
 
-    <!-- Global styles -->
-    <link rel="stylesheet" href="../styles/global.css" />
-    <link rel="stylesheet" href="../styles/buttons/button.css" />
-    <link rel="stylesheet" href="../styles/typography/typography.css" />
-    <link rel="stylesheet" href="../styles/sidebar/sidebar.css" />
-</head>
+    <body>
+        <button class="hamburger-menu" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="sidebar-overlay"></div>
+        <div class="container">
+            <!-- Sidebar -->
+            <aside class="sidebar-container">
+                <!-- Sidebar header -->
+                <div class="sidebar-header">
+                    <!-- Logo -->
+                    <a href="/" class="logo">
+                        <img src="../assets/TikTok_logo.svg.png" alt="Logo" />
+                    </a>
 
-<body>
-    <button class="hamburger-menu" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
-    <div class="sidebar-overlay"></div>
-    <div class="container">
-        <!-- Sidebar -->
-        <aside class="sidebar-container">
-            <!-- Sidebar header -->
-            <div class="sidebar-header">
-                <!-- Logo -->
-                <a href="/" class="logo">
-                    <img src="../assets/TikTok_logo.svg.png" alt="Logo" />
-                </a>
+                    <!-- Description -->
+                    <div class="sidebar-description">
+                        <p class="info">
+                            VISUAL IDENTITY GUIDELINES UPDATED: May 6, 2024
+                        </p>
+                    </div>
 
-                <!-- Description -->
-                <div class="sidebar-description">
-                    <p class="info">
-                        VISUAL IDENTITY GUIDELINES UPDATED: May 6, 2024
-                    </p>
+                    <!-- Menu list -->
+                    <ul class="sidebar-list">
+                        <li>
+                            <a href="../index.html">
+                                <button class="ghost-btn">
+                                    <span>01</span>
+                                    <span>TikTok explained</span>
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../pages/discover-how-tiktok-works.html">
+                                <button class="ghost-btn">
+                                    <span>02</span>
+                                    <span>Discover how TikTok works</span>
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../pages/setup-your-tiktok-profile.html">
+                                <button class="ghost-btn">
+                                    <span>03</span>
+                                    <span>Set up your TikTok profile</span>
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../pages/find-your-niche-on-tiktok.html">
+                                <button class="ghost-btn">
+                                    <span>04</span>
+                                    <span>Find your niche on TikTok</span>
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="../pages/create-your-own-tiktok-video.html"
+                            >
+                                <button class="ghost-btn">
+                                    <span>05</span>
+                                    <span>Create your own TikTok videos</span>
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../pages/connect-with-your-audience.html">
+                                <button class="ghost-btn">
+                                    <span>06</span>
+                                    <span
+                                        >Connect with your audience on
+                                        TikTok</span
+                                    >
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="../pages/be-creative-and-grow-on-tiktok.html"
+                            >
+                                <button class="ghost-btn active">
+                                    <span>07</span>
+                                    <span>Be creative and grow on TikTok</span>
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
 
-                <!-- Menu list -->
-                <ul class="sidebar-list">
-                    <li>
-                        <a href="../index.html">
-                            <button class="ghost-btn">
-                                <span>01</span>
-                                <span>TikTok explained</span>
-                            </button>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../pages/discover-how-tiktok-works.html">
-                            <button class="ghost-btn">
-                                <span>02</span>
-                                <span>Discover how TikTok works</span>
-                            </button>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../pages/setup-your-tiktok-profile.html">
-                            <button class="ghost-btn">
-                                <span>03</span>
-                                <span>Set up your TikTok profile</span>
-                            </button>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../pages/find-your-niche-on-tiktok.html">
-                            <button class="ghost-btn">
-                                <span>04</span>
-                                <span>Find your niche on TikTok</span>
-                            </button>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../pages/create-your-own-tiktok-video.html">
-                            <button class="ghost-btn">
-                                <span>05</span>
-                                <span>Create your own TikTok videos</span>
-                            </button>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../pages/connect-with-your-audience.html">
-                            <button class="ghost-btn">
-                                <span>06</span>
-                                <span>Connect with your audience on
-                                    TikTok</span>
-                            </button>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../pages/be-creative-and-grow-on-tiktok.html">
-                            <button class="ghost-btn active">
-                                <span>07</span>
-                                <span>Be creative and grow on TikTok</span>
-                            </button>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Sidebar footer -->
-            <div class="sidebar-footer">
-                <button class="ghost-btn" id="translateKhmer">Khmer</button>
-                <button class="ghost-btn" id="translateEnglish">English</button>
-            </div>
-        </aside>
-
-        <!-- Main container -->
-        <main class="main-container">
-            <header class="header-container">
-                <img src="../assets/Get-creative-on-TikTok.jpg" alt="" />
-                <div class="content">
-                    <h2 class="heading-2" data-translate="number7">07</h2>
-                    <h2 class="heading-2" data-translate="introduction_7">
-                        Be creative and grow on TikTok
-                    </h2>
+                <!-- Sidebar footer -->
+                <div class="sidebar-footer">
+                    <button class="ghost-btn" id="translateKhmer">Khmer</button>
+                    <button class="ghost-btn" id="translateEnglish">
+                        English
+                    </button>
                 </div>
-            </header>
-            <div class="inner-container">
-                <img src="../assets/Get-creative-on-TikTok.jpg" alt="" />
+            </aside>
 
-                <h3 class="heading-3" data-translate="heading_71">
-                    Be creative and watch your TikTok channel grow
-                </h3>
+            <!-- Main container -->
+            <main class="main-container">
+                <header class="header-container">
+                    <img src="../assets/Get-creative-on-TikTok.jpg" alt="" />
+                    <div class="content">
+                        <h2 class="heading-2" data-translate="number7">07</h2>
+                        <h2 class="heading-2" data-translate="introduction_7">
+                            Be creative and grow on TikTok
+                        </h2>
+                    </div>
+                </header>
+                <div
+                    class="inner-container"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                >
+                    <img src="../assets/Get-creative-on-TikTok.jpg" alt="" />
 
-                <h4 class="heading-4" data-translate="paragraph_72">
-                    With over a billion active TikTok users every single
-                    month, now’s the time to embrace the popular short-form
-                    video platform and get started on TikTok. With this
-                    guide you should now have all the tools to make a TikTok
-                    and flex your creative muscles with awesome bite-size
-                    content.
-                </h4>
+                    <h3 class="heading-3" data-translate="heading_71">
+                        Be creative and watch your TikTok channel grow
+                    </h3>
 
-                <h4 class="heading-4" data-translate="paragraph_73">
-                    Complete your profile for the best chance of getting
-                    discovered. Find your niche and build an engaged
-                    audience that shares a passion for what you love. Make
-                    the most of community features that let you engage with
-                    people and grow your followers.
-                </h4>
-                <h4 class="heading-4" data-translate="paragraph_74">
-                    Picking the right music is important and can help your
-                    videos blow up on TikTok. But remember if you’re posting
-                    content across different platforms, like YouTube, you’ll
-                    want to find copyright-free tracks from a music library
-                    like Uppbeat to avoid copyright issues.
-                </h4>
-                <h4 class="heading-4" data-translate="heading_75">
-                    TikTok has made it easy to get creative with nothing
-                    more than your phone, so get started and see what you
-                    can come up with. Embrace your creativity, and let your
-                    unique style shine through your TikTok content.
-                </h4>
-            </div>
-        </main>
-    </div>
-    <script src="../script.js" type="module"></script>
-    <script src="../components/logo.js"></script>
-</body>
+                    <h4 class="heading-4" data-translate="paragraph_72">
+                        With over a billion active TikTok users every single
+                        month, now’s the time to embrace the popular short-form
+                        video platform and get started on TikTok. With this
+                        guide you should now have all the tools to make a TikTok
+                        and flex your creative muscles with awesome bite-size
+                        content.
+                    </h4>
 
+                    <h4 class="heading-4" data-translate="paragraph_73">
+                        Complete your profile for the best chance of getting
+                        discovered. Find your niche and build an engaged
+                        audience that shares a passion for what you love. Make
+                        the most of community features that let you engage with
+                        people and grow your followers.
+                    </h4>
+                    <h4 class="heading-4" data-translate="paragraph_74">
+                        Picking the right music is important and can help your
+                        videos blow up on TikTok. But remember if you’re posting
+                        content across different platforms, like YouTube, you’ll
+                        want to find copyright-free tracks from a music library
+                        like Uppbeat to avoid copyright issues.
+                    </h4>
+                    <h4 class="heading-4" data-translate="heading_75">
+                        TikTok has made it easy to get creative with nothing
+                        more than your phone, so get started and see what you
+                        can come up with. Embrace your creativity, and let your
+                        unique style shine through your TikTok content.
+                    </h4>
+                </div>
+            </main>
+        </div>
+        <script src="../script.js" type="module"></script>
+        <script src="../components/logo.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
 </html>

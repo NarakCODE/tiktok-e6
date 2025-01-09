@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="../styles/buttons/button.css" />
     <link rel="stylesheet" href="../styles/typography/typography.css" />
     <link rel="stylesheet" href="../styles/sidebar/sidebar.css" />
+            <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -115,7 +117,8 @@
                     <h2 class="heading-2" data-translate="introduction_4">Find your niche on TikTok</h2>
                 </div>
             </header>
-            <div class="inner-container">
+            <div class="inner-container"     data-aos="fade-up"
+                    data-aos-duration="800">
                 <img src="../assets/Create-TikTok-content.jpg" alt="" />
 
                 <h3 class="heading-3" data-translate="heading_4">Finding your TikTok niche</h3>
@@ -210,6 +213,10 @@
     </div>
     <script src="../script.js" type="module"></script>
     <script src="../components/logo.js"></script>
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>
